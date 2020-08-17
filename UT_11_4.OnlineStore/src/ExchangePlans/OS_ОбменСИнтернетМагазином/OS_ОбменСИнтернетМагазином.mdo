@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f750433-4d8c-402f-81da-5bed647634f3" thisNode="4f750433-4d8c-402f-81da-5bed647634f3">
+  <producedTypes>
+    <objectType typeId="fbb14719-17e0-46bc-9c2d-ba6ae2a85382" valueTypeId="d7ac9878-84c2-4101-aeda-f9a55f567cb2"/>
+    <refType typeId="ae8892ff-e88e-43d6-a273-bf9a3f8e8804" valueTypeId="b9732240-43f1-4717-95f9-f6af78bf9502"/>
+    <selectionType typeId="9d5f1fa0-9e6d-4e47-aa51-d4d8758be0af" valueTypeId="0bf99266-0d7f-4f4b-8330-4519f18fdebd"/>
+    <listType typeId="fb1b3b5f-e063-40d4-937a-af0dab5d5d94" valueTypeId="4013a415-05c0-4489-9c6a-a9efafdc506d"/>
+    <managerType typeId="e1a0fda7-5955-4761-a9cb-4fee2f02c18b" valueTypeId="98cc6227-e9f0-47fc-8522-771bc0d4da27"/>
+  </producedTypes>
+  <name>OS_ОбменСИнтернетМагазином</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с интернет-магазином (OS)</value>
+  </synonym>
+  <inputByString>ExchangePlan.OS_ОбменСИнтернетМагазином.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.OS_ОбменСИнтернетМагазином.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказКлиента</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.OS_ОбменСИнтернетМагазином.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="349c430d-f51f-4165-bcf0-fb2d5b073add">
+    <name>ИспользоватьОбменСИнтернетМагазином</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать обмен с интернет магазином</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ed95c8f-0c4c-4e12-98c5-8b4d3696397c">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="561a203d-8d80-48fa-b880-698a2e78a26b">
+    <name>КлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="25851c09-e156-46ea-b1ae-78324da2ae20">
+    <name>ГруппаДоступаПартнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыДоступаПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2100b60a-6151-49a7-aefd-bd00d19d2a2d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a2d4e21-cf93-4af8-a427-8133fce014a9">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b0bc4fc-2457-46a5-9ee4-54b97f55d6b8">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f369560d-48c0-410b-a50d-bed8fbbfb283">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7c07530-c12e-4b9c-9247-1b0cef179910">
+    <name>ФормаИнформацияОЗарегистрированныхИзменениях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма информация о зарегистрированных изменениях</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6e91ee9e-5473-4f05-a6e7-509981f95b7d">
+    <name>ОбменСИнтернетМагазином</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с интернет магазином</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="499b3916-bf3a-43c6-b3f6-8635bdc606e1">
+    <name>ВыполнитьОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обмен</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.OS_ОбменСИнтернетМагазином</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GenerateReport</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="825b4baa-f556-497a-a097-cccf3e5f8f5f">
+    <name>ПоказатьЗарегистрированныеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать зарегистрированные изменения</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.OS_ОбменСИнтернетМагазином</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать зарегистрированные изменения для узла обмена с сайтом</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ShowData</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ExchangePlan>

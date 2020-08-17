@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba0d5cb1-debd-4278-b55c-e521cd1fabe6">
+  <name>OS_OnlineStore</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с интернет магазином</value>
+  </synonym>
+  <rootURL>store</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="8a0f20e2-7f08-4ff9-a6a9-f9c79ee7de37">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <template>/test</template>
+    <methods uuid="26594916-e291-4366-81f3-668a2d4b8c90">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТестGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="987c4037-fce7-411d-a5cb-5ef1df129fed">
+    <name>Покупатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатели</value>
+    </synonym>
+    <template>/customers</template>
+    <methods uuid="785af658-03f5-4b38-abaa-0b44eb65f47b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПокупателиPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f40e5cec-b28e-4101-b7fe-742e667a0bbf">
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="81bfa10c-9bc9-44d8-9e1a-a399b9ee6789">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаказыPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cdf977b6-e921-48e4-823e-b04ef5fb9294">
+    <name>Статусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы</value>
+    </synonym>
+    <template>/status</template>
+    <methods uuid="ec067fd8-9ba9-4529-a11a-7abce80537bd">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СтатусыPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

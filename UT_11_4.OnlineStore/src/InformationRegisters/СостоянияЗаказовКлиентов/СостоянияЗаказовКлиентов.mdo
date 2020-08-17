@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1d9f1121-eac7-4e8c-ac91-50d1dd8a7b7d" extendedConfigurationObject="bc51e744-f22b-4a4d-9db1-4032f96cd184">
+  <producedTypes>
+    <selectionType typeId="a0f7e2d9-4d60-452c-8291-024bd782e599" valueTypeId="8d593b40-7b77-40c8-95a2-285961fa76aa"/>
+    <listType typeId="1c3c2551-ecf4-4156-94b6-393a20de484a" valueTypeId="5d370296-d9d1-42b2-b8bf-47eb9aa016ec"/>
+    <managerType typeId="fbbe5c25-7faf-4ed7-8492-51e12f12cb52" valueTypeId="40254213-bf48-4566-83e2-2110cafbeb29"/>
+    <recordSetType typeId="5edcb81d-1992-4f04-9091-e5df85b3b13b" valueTypeId="83709e02-ed26-4756-94c3-a98a9f181de2"/>
+    <recordKeyType typeId="1c67c4b8-9b2c-4f23-87c3-5a2273205fbe" valueTypeId="655f3eb4-1b99-4765-ba77-b3c2947e7688"/>
+    <recordType typeId="87cc1625-5911-43b3-9453-4739cebc3a60" valueTypeId="db043fd3-5661-4186-b77a-87277928fbfb"/>
+    <recordManagerType typeId="fa9b9f6c-396d-40a2-ab52-7ceb4fd2a0ab" valueTypeId="a16da787-1a28-47a3-b444-6d01d9be606e"/>
+  </producedTypes>
+  <name>СостоянияЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

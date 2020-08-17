@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7df8f529-5c3c-430a-9064-149cd8cbf404" extendedConfigurationObject="e5f80ee1-11ee-4805-9a52-c7edb03a422e">
+  <producedTypes>
+    <selectionType typeId="5663de53-0ffd-424c-9e89-66bfab9353da" valueTypeId="a49b2c13-3c28-4eee-84b9-1e8870ad77b0"/>
+    <listType typeId="90f34acb-766d-4be0-a71c-1b530b3f1659" valueTypeId="c886f1ca-7880-4c3e-be5b-6d738a3e0c9d"/>
+    <managerType typeId="2062fde8-6f1b-4ce3-a407-98e1e1b24dbb" valueTypeId="570e75c2-ee3f-4a87-ad16-656178350d06"/>
+    <recordSetType typeId="60c53eb3-2b9b-429b-95f9-74316efe5169" valueTypeId="148dda52-73f6-442c-acab-4d1381f5aa7c"/>
+    <recordKeyType typeId="317104c6-8e58-46da-87f2-24604a55c312" valueTypeId="a169ae37-91cf-4860-8503-9c4788c24635"/>
+    <recordType typeId="e319565b-27a2-46a1-b81a-83186163f959" valueTypeId="d99f8f0a-e1cd-4f8f-a710-17e68be56497"/>
+    <recordManagerType typeId="1ed3292c-3bc0-4cb1-9865-956d64cab6fe" valueTypeId="b648c3cd-b925-4694-8392-8030a5f22527"/>
+  </producedTypes>
+  <name>ЦеныНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39e1f4f2-0af0-4276-b1bf-4e32b9685fd9">
+  <name>ИнтеграцияСИнтернетМагазином</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с интернет магазином</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2658ed53-05e9-44aa-b278-65facdad244c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d627f48b-e3b3-455a-a193-b625de5b160c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b4e43ee2-7a64-44ef-9558-abfd34491ab7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="582bb0b5-d4fb-4ac1-8771-4dfd0639afa6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9c2c5f76-6046-4769-b8fb-568a00285dba"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5891f401-8eed-437d-bcf4-d1c3506f709d"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>OS_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.OS_ОбменСИнтернетМагазином</defaultRoles>
+  <vendor>Фирма &quot;1С&quot;</vendor>
+  <version>11.4.12.61</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="49e14bd0-e4fb-4893-97b9-967d7d6b511a">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <roles>Role.OS_ОбменСИнтернетМагазином</roles>
+  <commonModules>CommonModule.OS_ОбменСИнтернетМагазином</commonModules>
+  <commonModules>CommonModule.OS_ОбменСИнтернетМагазиномПовтИсп</commonModules>
+  <exchangePlans>ExchangePlan.OS_ОбменСИнтернетМагазином</exchangePlans>
+  <httpServices>HTTPService.OS_OnlineStore</httpServices>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ГруппыДоступаПартнеров</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <dataProcessors>DataProcessor.ТестОтправкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.ТестРегистрации</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияЗаказовКлиентов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
+</mdclass:Configuration>

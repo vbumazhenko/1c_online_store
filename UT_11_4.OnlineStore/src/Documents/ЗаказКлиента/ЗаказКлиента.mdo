@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1fb68d2e-5eac-4c30-b973-610da8e23ac7" extendedConfigurationObject="1ceef4a2-6b58-45a0-8a75-bb6e3004590f">
+  <producedTypes>
+    <objectType typeId="129913e1-02e4-4a64-b653-178b5dd15896" valueTypeId="6d802176-2252-467a-9848-9ae2f4a48041"/>
+    <refType typeId="b4c966f8-5485-419a-b0fe-1e7da6220655" valueTypeId="80e9fea0-a24d-4cce-8ee2-60ee6809eeee"/>
+    <selectionType typeId="ec6b337f-eaa6-40b6-9c12-77b2037b6bbd" valueTypeId="156f0cb7-43bd-4d5d-a67f-17432a8a6068"/>
+    <listType typeId="ca4211b8-1d5f-4ed0-9742-7dab9b0e0394" valueTypeId="b8595f2a-0faa-471f-b2c8-a639f937721d"/>
+    <managerType typeId="18e6bc2c-0539-45ed-a725-9ec98616ef72" valueTypeId="83c2cc7c-a65d-484e-819b-9054d2e1a507"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
